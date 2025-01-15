@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE SP_CUSTOM_DQ(json_input string)
+CREATE OR REPLACE PROCEDURE procedure_db.procedure_schema.SP_CUSTOM_DQ(json_input string)
     returns STRING
     language python
     runtime_version = 3.11
