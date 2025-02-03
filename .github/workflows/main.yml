@@ -47,5 +47,4 @@ jobs:
           pip install snowflake-cli-labs
           
           echo "Step 2: Running schemachange"
-          schemachange -f $GITHUB_WORKSPACE/Setup -a $SF_ACCOUNT -u $SF_USERNAME -r $SF_ROLE -w $SF_WAREHOUSE -d $SF_DATABASE -c $SF_DATABASE.SCHEMACHANGE.Procedure_CHANGE_HISTORY --create-change-history-table --replace-existing 
-
+          schemachange -f $GITHUB_WORKSPACE/Setup -a $SF_ACCOUNT -u $SF_USERNAME -r $SF_ROLE -w $SF_WAREHOUSE -d $SF_DATABASE -c $SF_DATABASE.SCHEMACHANGE.Procedure_CHANGE_HISTORY --create-change-history-table 
