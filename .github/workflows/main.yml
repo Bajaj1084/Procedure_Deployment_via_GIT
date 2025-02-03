@@ -8,7 +8,7 @@ on:
       - dev
       - test
     tags:
-      - 'V1.*'
+      - "v*"
       
 
   # Allows you to run this workflow manually from the Actions tab
